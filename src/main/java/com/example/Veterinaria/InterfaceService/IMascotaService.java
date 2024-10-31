@@ -1,6 +1,7 @@
 package com.example.Veterinaria.InterfaceService;
 
 import com.example.Veterinaria.Model.Mascota;
+import com.example.Veterinaria.Model.Propietario;
 
 import java.util.List;
 import java.util.Optional;

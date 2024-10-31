@@ -19,7 +19,7 @@ public class PropietarioController {
     @GetMapping("/listar")
     public String listarPropietarios(Model model){
 
-        model.addAttribute("titulo", "Spring DB");
+        model.addAttribute("titulo", "Veterinaria");
         model.addAttribute("cuerpo", "LISTA DE PROPIETARIOS");
 
         model.addAttribute("datos", service.listar());
